@@ -1,0 +1,52 @@
+\documentclass[10pt, a4paper]{article}
+\usepackage{note}
+
+% title
+\title{Note of Natural Language Processing \\[1ex] { Preliminaries and Modern Models}}
+
+% author information
+
+\author{Junjie Liu$^1$\thanks{ Considered of my limited ability, mistakes are inevitable. Correction and suggestions are welcomed. This work is under the CC-BY-SA 4.0 International license} \\ liuj13@tcd.ie}
+\date{\small $^1$ Department of Political Science, Trinity College Dublin \\ \vspace{0.1in} Date of Final Compile: \today}
+
+%\emoji{flag-china} - with lualatex
+
+\makeindex
+
+% symbols & abbrav
+\glsxtrnewsymbol[description={closure of a set $A$}]{A}{\ensuremath{\overline{A}}}
+\glsxtrnewsymbol[description={interor of a set $A$}]{B}{\ensuremath{\mathring{A}}}
+
+
+\begin{document}
+
+\newgeometry{margin=1in} 
+\maketitle
+\tableofcontents
+\clearpage
+\restoregeometry
+
+\begin{abstract}
+In this note, we are not trying to do the systematic review of the entire NLP development, however, it would be the collection of
+some basic knowledge and modern models in the field of NLP. The note is divided into three parts: preliminaries, foundation models, and large language models. The first part will introduce some basic concepts and methods in NLP, such as tokenization, POS tagging, and parsing, also the related mathematics basis of NLP. The second part will introduce some foundation models in NLP, such as Hidden Markov Model, Maximum Entropy Model, and Conditional Random Field. The third part will introduce some large language models, such as T5, LLaMA, and, GPT. The note is not intended to be comprehensive, but to provide a brief overview of the field of NLP to the scholar that trying to use text-as-data in their research. 
+\end{abstract}
+
+% list of symbols
+%\printunsrtglossary[type=symbols,style=long]
+
+\newpage
+\section{Preliminaries}
+
+\section{Foundation Models}
+
+\section{Large Language Models}
+
+% reference
+
+\newgeometry{margin=0.5in}
+\bibliographystyle{abbrv}
+\bibliography{nlp}
+\printindex
+\restoregeometry
+
+\end{document}
